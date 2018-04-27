@@ -215,3 +215,36 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+
+  @media only screen  and  (max-width: 980px) {
+      .container {
+          padding: 0 20px;
+          max-width: 768px;
+      }
+      #main-container {
+          padding-top: 130px;
+      } 
+      .main-section {
+          max-width: 420px;
+           
+      }
+  }
+
+  @media only screen  and  (max-width: 640px) {
+      #masthead { position: static;
+        margin-bottom: 10px;
+      }
+      header.container {
+          padding: 0
+      }
+
+      #logo {
+          widows: 100%;
+      }
+      nav {
+          text-align: center;
+          width: 100%;
+          margin: 15px 0px;
+    }
+    
+  }
